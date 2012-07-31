@@ -9,7 +9,11 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui
 Bundle-ClassPath: lib/core-0.1.0-SNAPSHOT.jar,
  lib/engine-0.1.0-SNAPSHOT.jar,
- .
+ .,
+ lib/lwjgl_util-2.8.4.jar,
+ lib/lwjgl-2.8.4.jar
+Bundle-NativeCode: lib/natives/lwjgl.dll; osname=Win32; processor=x86, 
+ lib/natives/liblwjgl.so; osname=Linux; processor=x86
 Export-Package: de.stefanteitge.mtmx.core.file,
  de.stefanteitge.mtmx.core.file.act,
  de.stefanteitge.mtmx.core.file.audio,
