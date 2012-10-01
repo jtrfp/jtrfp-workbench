@@ -17,24 +17,24 @@
 package de.stefanteitge.mtmx.workbench.ui.internal.view;
 
 
+import jtrfp.common.act.IActPodFileEntry;
+import jtrfp.common.audio.IModPodFileEntry;
+import jtrfp.common.audio.IWavPodFileEntry;
+import jtrfp.common.bin.IBinPodFileEntry;
+import jtrfp.common.clr.IClrPodFileEntry;
+import jtrfp.common.image.IBmpPodFileEntry;
+import jtrfp.common.image.ITifPodFileEntry;
+import jtrfp.common.kfm.IKfmPodFileEntry;
+import jtrfp.common.lvl.ILvlPodFileEntry;
+import jtrfp.common.pod.IPodData;
+import jtrfp.common.pod.IPodFileEntry;
+import jtrfp.common.raw.IRawPodFileEntry;
+import jtrfp.common.sit.ISitPodFileEntry;
+import jtrfp.common.tex.ITexPodFileEntry;
+import jtrfp.common.trk.ITrkPodFileEntry;
+
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.Viewer;
-
-import de.stefanteitge.mtmx.core.file.act.IActPodFileEntry;
-import de.stefanteitge.mtmx.core.file.audio.IModPodFileEntry;
-import de.stefanteitge.mtmx.core.file.audio.IWavPodFileEntry;
-import de.stefanteitge.mtmx.core.file.bin.IBinPodFileEntry;
-import de.stefanteitge.mtmx.core.file.clr.IClrPodFileEntry;
-import de.stefanteitge.mtmx.core.file.image.IBmpPodFileEntry;
-import de.stefanteitge.mtmx.core.file.image.ITifPodFileEntry;
-import de.stefanteitge.mtmx.core.file.kfm.IKfmPodFileEntry;
-import de.stefanteitge.mtmx.core.file.lvl.ILvlPodFileEntry;
-import de.stefanteitge.mtmx.core.file.pod.IPodData;
-import de.stefanteitge.mtmx.core.file.pod.IPodFileEntry;
-import de.stefanteitge.mtmx.core.file.raw.IRawPodFileEntry;
-import de.stefanteitge.mtmx.core.file.sit.ISitPodFileEntry;
-import de.stefanteitge.mtmx.core.file.tex.ITexPodFileEntry;
-import de.stefanteitge.mtmx.core.file.trk.ITrkPodFileEntry;
 
 public class PodDataContentProvider implements ITreeContentProvider {
 

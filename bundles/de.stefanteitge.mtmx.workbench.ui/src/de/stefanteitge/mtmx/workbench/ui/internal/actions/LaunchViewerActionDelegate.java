@@ -16,6 +16,13 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.internal.actions;
 
+import jtrfp.common.bin.IBinPodFileEntry;
+import jtrfp.common.pod.IPodFileEntry;
+import jtrfp.common.pod.PodFile;
+import jtrfp.common.sit.ISitPodFileEntry;
+import jtrfp.common.trk.ITrkPodFileEntry;
+import jtrfp.game.ITriGameDir;
+
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.jface.action.IAction;
@@ -26,16 +33,10 @@ import org.eclipse.ui.IViewActionDelegate;
 import org.eclipse.ui.IViewPart;
 import org.eclipse.ui.PartInitException;
 
-import de.stefanteitge.mtmx.core.file.bin.IBinPodFileEntry;
-import de.stefanteitge.mtmx.core.file.pod.IPodFileEntry;
-import de.stefanteitge.mtmx.core.file.pod.PodFile;
-import de.stefanteitge.mtmx.core.file.sit.ISitPodFileEntry;
-import de.stefanteitge.mtmx.core.file.trk.ITrkPodFileEntry;
-import de.stefanteitge.mtmx.core.tri.ITriGameDir;
-import de.stefanteitge.mtmx.engine.tools.ModelViewer;
-import de.stefanteitge.mtmx.engine.tools.TruckViewer;
-import de.stefanteitge.mtmx.engine.tools.ViewerException;
-import de.stefanteitge.mtmx.engine.tools.WorldViewer;
+import de.stefanteitge.mtmx.tools.ModelViewer;
+import de.stefanteitge.mtmx.tools.TruckViewer;
+import de.stefanteitge.mtmx.tools.ViewerException;
+import de.stefanteitge.mtmx.tools.WorldViewer;
 import de.stefanteitge.mtmx.workbench.ui.GameProvider;
 import de.stefanteitge.mtmx.workbench.ui.UiPlugin;
 

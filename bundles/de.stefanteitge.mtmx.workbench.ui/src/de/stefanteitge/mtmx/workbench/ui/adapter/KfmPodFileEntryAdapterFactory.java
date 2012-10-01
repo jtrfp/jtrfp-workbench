@@ -16,10 +16,11 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.adapter;
 
+import jtrfp.common.kfm.IKfmPodFileEntry;
+
 import org.eclipse.core.runtime.IAdapterFactory;
 import org.eclipse.ui.views.properties.IPropertySource;
 
-import de.stefanteitge.mtmx.core.file.kfm.IKfmPodFileEntry;
 import de.stefanteitge.mtmx.workbench.ui.property.KfmPodFileEntryPropertySource;
 
 public class KfmPodFileEntryAdapterFactory implements IAdapterFactory {

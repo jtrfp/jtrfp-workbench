@@ -19,13 +19,13 @@ package de.stefanteitge.mtmx.workbench.ui.property;
 import java.util.ArrayList;
 import java.util.List;
 
+import jtrfp.common.DataKey;
+import jtrfp.common.FileLoadException;
+import jtrfp.common.lvl.ILvlPodFileEntry;
+
 import org.eclipse.ui.views.properties.IPropertyDescriptor;
 import org.eclipse.ui.views.properties.IPropertySource;
 import org.eclipse.ui.views.properties.TextPropertyDescriptor;
-
-import de.stefanteitge.mtmx.core.file.FileLoadException;
-import de.stefanteitge.mtmx.core.file.common.DataKey;
-import de.stefanteitge.mtmx.core.file.lvl.ILvlPodFileEntry;
 
 public class LvlPodFileEntryPropertySource implements IPropertySource {
 

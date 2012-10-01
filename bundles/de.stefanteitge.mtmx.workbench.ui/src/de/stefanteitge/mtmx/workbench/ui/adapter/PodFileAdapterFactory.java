@@ -17,10 +17,11 @@
 package de.stefanteitge.mtmx.workbench.ui.adapter;
 
 
+import jtrfp.common.pod.PodFile;
+
 import org.eclipse.core.runtime.IAdapterFactory;
 import org.eclipse.ui.views.properties.IPropertySource;
 
-import de.stefanteitge.mtmx.core.file.pod.PodFile;
 import de.stefanteitge.mtmx.workbench.ui.property.PodFilePropertySource;
 
 public class PodFileAdapterFactory implements IAdapterFactory {

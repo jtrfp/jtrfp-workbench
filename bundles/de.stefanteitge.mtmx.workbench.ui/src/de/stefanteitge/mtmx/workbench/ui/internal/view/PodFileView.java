@@ -17,6 +17,9 @@
 package de.stefanteitge.mtmx.workbench.ui.internal.view;
 
 
+import jtrfp.common.FileLoadException;
+import jtrfp.common.pod.PodFile;
+
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.jface.viewers.TreeViewer;
@@ -26,9 +29,6 @@ import org.eclipse.ui.ISelectionListener;
 import org.eclipse.ui.ISelectionService;
 import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.ui.part.ViewPart;
-
-import de.stefanteitge.mtmx.core.file.FileLoadException;
-import de.stefanteitge.mtmx.core.file.pod.PodFile;
 
 public class PodFileView extends ViewPart {
 

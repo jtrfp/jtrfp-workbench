@@ -18,19 +18,19 @@ package de.stefanteitge.mtmx.workbench.ui;
 
 import java.io.File;
 
+import jtrfp.common.act.IActPodFileEntry;
+import jtrfp.common.audio.IModPodFileEntry;
+import jtrfp.common.audio.IWavPodFileEntry;
+import jtrfp.common.image.IBmpPodFileEntry;
+import jtrfp.common.pod.IPodFileEntry;
+import jtrfp.common.pod.PodFile;
+import jtrfp.common.raw.IRawPodFileEntry;
+
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.jface.resource.ImageRegistry;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.ui.ISharedImages;
 import org.eclipse.ui.PlatformUI;
-
-import de.stefanteitge.mtmx.core.file.act.IActPodFileEntry;
-import de.stefanteitge.mtmx.core.file.audio.IModPodFileEntry;
-import de.stefanteitge.mtmx.core.file.audio.IWavPodFileEntry;
-import de.stefanteitge.mtmx.core.file.image.IBmpPodFileEntry;
-import de.stefanteitge.mtmx.core.file.pod.IPodFileEntry;
-import de.stefanteitge.mtmx.core.file.pod.PodFile;
-import de.stefanteitge.mtmx.core.file.raw.IRawPodFileEntry;
 
 public final class IconProvider {
 

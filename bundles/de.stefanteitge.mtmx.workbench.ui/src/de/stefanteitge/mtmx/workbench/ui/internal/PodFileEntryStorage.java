@@ -19,13 +19,14 @@ package de.stefanteitge.mtmx.workbench.ui.internal;
 import java.io.IOException;
 import java.io.InputStream;
 
+import jtrfp.common.pod.IPodFileEntry;
+
 import org.eclipse.core.resources.IStorage;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
 
-import de.stefanteitge.mtmx.core.file.pod.IPodFileEntry;
 import de.stefanteitge.mtmx.workbench.ui.UiPlugin;
 
 

@@ -16,10 +16,11 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.adapter;
 
+import jtrfp.common.raw.IRawPodFileEntry;
+
 import org.eclipse.core.runtime.IAdapterFactory;
 import org.eclipse.ui.views.properties.IPropertySource;
 
-import de.stefanteitge.mtmx.core.file.raw.IRawPodFileEntry;
 import de.stefanteitge.mtmx.workbench.ui.property.RawPodFileEntryPropertySource;
 
 public class RawPodFileEntryAdapterFactory implements IAdapterFactory {

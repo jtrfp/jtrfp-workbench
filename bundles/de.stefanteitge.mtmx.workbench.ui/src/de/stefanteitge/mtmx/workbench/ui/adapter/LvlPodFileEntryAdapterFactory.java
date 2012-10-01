@@ -16,10 +16,11 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.adapter;
 
+import jtrfp.common.lvl.ILvlPodFileEntry;
+
 import org.eclipse.core.runtime.IAdapterFactory;
 import org.eclipse.ui.views.properties.IPropertySource;
 
-import de.stefanteitge.mtmx.core.file.lvl.ILvlPodFileEntry;
 import de.stefanteitge.mtmx.workbench.ui.property.LvlPodFileEntryPropertySource;
 
 public class LvlPodFileEntryAdapterFactory implements IAdapterFactory {

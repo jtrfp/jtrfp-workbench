@@ -20,12 +20,13 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import jtrfp.game.GameDirFactory;
+import jtrfp.game.ITriGameDir;
+
 import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.jface.util.IPropertyChangeListener;
 import org.eclipse.jface.util.PropertyChangeEvent;
 
-import de.stefanteitge.mtmx.core.tri.GameDirFactory;
-import de.stefanteitge.mtmx.core.tri.ITriGameDir;
 import de.stefanteitge.mtmx.workbench.ui.internal.prefs.IPreferenceConstants;
 
 /**

@@ -2,14 +2,14 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: mtmX Workbench UI
 Bundle-SymbolicName: de.stefanteitge.mtmx.workbench.ui;singleton:=true
-Bundle-Version: 0.1.0
+Bundle-Version: 0.0.1
 Require-Bundle: org.eclipse.core.filesystem,
  org.eclipse.core.resources,
  org.eclipse.core.runtime,
  org.eclipse.ui,
  org.eclipse.ui.views,
  de.stefanteitge.javamod,
- de.stefanteitge.mtmx.workbench.core;bundle-version="0.0.2"
+ de.stefanteitge.mtmx.workbench.core
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: stefanteitge.de

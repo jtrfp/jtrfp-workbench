@@ -18,6 +18,9 @@ package de.stefanteitge.mtmx.workbench.ui.internal.view;
 
 import java.io.File;
 
+import jtrfp.common.pod.PodFile;
+import jtrfp.game.ITriGameDir;
+
 import org.eclipse.jface.viewers.DoubleClickEvent;
 import org.eclipse.jface.viewers.IDoubleClickListener;
 import org.eclipse.jface.viewers.ISelection;
@@ -34,8 +37,6 @@ import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.ui.part.ViewPart;
 
-import de.stefanteitge.mtmx.core.file.pod.PodFile;
-import de.stefanteitge.mtmx.core.tri.ITriGameDir;
 import de.stefanteitge.mtmx.workbench.ui.GameProvider;
 import de.stefanteitge.mtmx.workbench.ui.IGameProviderListener;
 import de.stefanteitge.mtmx.workbench.ui.IconProvider;

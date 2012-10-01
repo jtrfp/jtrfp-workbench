@@ -16,10 +16,11 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.adapter;
 
+import jtrfp.common.tex.ITexPodFileEntry;
+
 import org.eclipse.core.runtime.IAdapterFactory;
 import org.eclipse.ui.views.properties.IPropertySource;
 
-import de.stefanteitge.mtmx.core.file.tex.ITexPodFileEntry;
 import de.stefanteitge.mtmx.workbench.ui.property.TexPodFileEntryPropertySource;
 
 public class TexPodFileEntryAdapterFactory implements IAdapterFactory {

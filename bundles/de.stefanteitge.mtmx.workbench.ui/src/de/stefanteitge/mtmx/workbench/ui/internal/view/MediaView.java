@@ -27,6 +27,20 @@ import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
+import jtrfp.common.FileLoadException;
+import jtrfp.common.FileStoreException;
+import jtrfp.common.act.ActFile;
+import jtrfp.common.act.DefaultActColorTable;
+import jtrfp.common.act.IActData;
+import jtrfp.common.act.IActPodFileEntry;
+import jtrfp.common.audio.IModPodFileEntry;
+import jtrfp.common.image.IBmpPodFileEntry;
+import jtrfp.common.image.ITifPodFileEntry;
+import jtrfp.common.pod.IPodData;
+import jtrfp.common.pod.IPodFileEntry;
+import jtrfp.common.raw.IRawPodFileEntry;
+import jtrfp.common.raw.RawImage;
+
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.swt.SWT;
@@ -38,19 +52,6 @@ import org.eclipse.ui.ISelectionService;
 import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.ui.part.ViewPart;
 
-import de.stefanteitge.mtmx.core.file.FileLoadException;
-import de.stefanteitge.mtmx.core.file.FileStoreException;
-import de.stefanteitge.mtmx.core.file.act.ActFile;
-import de.stefanteitge.mtmx.core.file.act.DefaultActColorTable;
-import de.stefanteitge.mtmx.core.file.act.IActData;
-import de.stefanteitge.mtmx.core.file.act.IActPodFileEntry;
-import de.stefanteitge.mtmx.core.file.audio.IModPodFileEntry;
-import de.stefanteitge.mtmx.core.file.image.IBmpPodFileEntry;
-import de.stefanteitge.mtmx.core.file.image.ITifPodFileEntry;
-import de.stefanteitge.mtmx.core.file.pod.IPodData;
-import de.stefanteitge.mtmx.core.file.pod.IPodFileEntry;
-import de.stefanteitge.mtmx.core.file.raw.IRawPodFileEntry;
-import de.stefanteitge.mtmx.core.file.raw.RawImage;
 import de.stefanteitge.mtmx.workbench.ui.internal.ModFilePlayer;
 
 public class MediaView extends ViewPart {

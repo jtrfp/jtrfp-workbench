@@ -13,35 +13,35 @@
       <extension
          point="org.eclipse.core.runtime.adapters">
       <factory
-            adaptableType="de.stefanteitge.mtmx.core.file.pod.PodFile"
+            adaptableType="jtrfp.common.pod.PodFile"
             class="de.stefanteitge.mtmx.workbench.ui.adapter.PodFileAdapterFactory">
          <adapter
                type="org.eclipse.ui.views.properties.IPropertySource">
          </adapter>
       </factory>
       <factory
-            adaptableType="de.stefanteitge.mtmx.core.file.kfm.IKfmPodFileEntry"
+            adaptableType="jtrfp.common.kfm.IKfmPodFileEntry"
             class="de.stefanteitge.mtmx.workbench.ui.adapter.KfmPodFileEntryAdapterFactory">
          <adapter
                type="org.eclipse.ui.views.properties.IPropertySource">
          </adapter>
       </factory>
       <factory
-            adaptableType="de.stefanteitge.mtmx.core.file.lvl.ILvlPodFileEntry"
+            adaptableType="jtrfp.common.lvl.ILvlPodFileEntry"
             class="de.stefanteitge.mtmx.workbench.ui.adapter.LvlPodFileEntryAdapterFactory">
          <adapter
                type="org.eclipse.ui.views.properties.IPropertySource">
          </adapter>
       </factory>
       <factory
-            adaptableType="de.stefanteitge.mtmx.core.file.tex.ITexPodFileEntry"
+            adaptableType="jtrfp.common.tex.ITexPodFileEntry"
             class="de.stefanteitge.mtmx.workbench.ui.adapter.TexPodFileEntryAdapterFactory">
          <adapter
                type="org.eclipse.ui.views.properties.IPropertySource">
          </adapter>
       </factory>
       <factory
-            adaptableType="de.stefanteitge.mtmx.core.file.raw.IRawPodFileEntry"
+            adaptableType="jtrfp.common.raw.IRawPodFileEntry"
             class="de.stefanteitge.mtmx.workbench.ui.adapter.RawPodFileEntryAdapterFactory">
          <adapter
                type="org.eclipse.ui.views.properties.IPropertySource">
@@ -106,7 +106,7 @@
                toolbarPath="additions">
             <enablement>
                <objectClass
-                     name="de.stefanteitge.mtmx.core.file.pod.PodFile">
+                     name="jtrfp.common.pod.PodFile">
                </objectClass>
             </enablement>
          </action>
@@ -120,7 +120,7 @@
                toolbarPath="additions">
             <enablement>
                <objectClass
-                     name="de.stefanteitge.mtmx.core.tri.ITriGameDir">
+                     name="jtrfp.game.ITriGameDir">
                </objectClass>
             </enablement>
          </action>
@@ -138,7 +138,7 @@
                toolbarPath="additions">
             <enablement>
                <objectClass
-                     name="de.stefanteitge.mtmx.core.file.pod.IPodFileEntry">
+                     name="IPodFileEntry">
                </objectClass>
             </enablement>
          </action>

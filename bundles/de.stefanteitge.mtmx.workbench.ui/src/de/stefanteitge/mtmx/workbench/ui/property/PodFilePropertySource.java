@@ -17,13 +17,13 @@
 package de.stefanteitge.mtmx.workbench.ui.property;
 
 
+import jtrfp.common.FileLoadException;
+import jtrfp.common.pod.PodFile;
+
 import org.eclipse.ui.views.properties.IPropertyDescriptor;
 import org.eclipse.ui.views.properties.IPropertySource;
 import org.eclipse.ui.views.properties.PropertyDescriptor;
 import org.eclipse.ui.views.properties.TextPropertyDescriptor;
-
-import de.stefanteitge.mtmx.core.file.FileLoadException;
-import de.stefanteitge.mtmx.core.file.pod.PodFile;
 
 public class PodFilePropertySource implements IPropertySource {
 

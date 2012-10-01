@@ -2,7 +2,7 @@
 <feature
       id="de.stefanteitge.mtmx.workbench.feature"
       label="mtmX Workbench"
-      version="0.1.0"
+      version="0.0.1"
       provider-name="stefanteitge.de">
 
    <copyright>
@@ -33,7 +33,7 @@ along with mtmX.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
    </license>
 
    <url>
-      <update label="mtmX Update Site" url="http://mtmx.googlecode.com/svn/update/"/>
+      <update label="mtmX Update Site" url="http://mtmx.googlecode.com/git.update/"/>
    </url>
 
    <requires>

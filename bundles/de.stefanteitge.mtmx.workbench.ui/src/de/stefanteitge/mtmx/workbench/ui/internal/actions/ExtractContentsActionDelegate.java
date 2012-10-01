@@ -21,6 +21,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import jtrfp.common.FileLoadException;
+import jtrfp.common.FileStoreException;
+import jtrfp.common.pod.PodFile;
+
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
@@ -31,10 +35,6 @@ import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.swt.widgets.DirectoryDialog;
 import org.eclipse.ui.IViewActionDelegate;
 import org.eclipse.ui.IViewPart;
-
-import de.stefanteitge.mtmx.core.file.FileLoadException;
-import de.stefanteitge.mtmx.core.file.FileStoreException;
-import de.stefanteitge.mtmx.core.file.pod.PodFile;
 
 public class ExtractContentsActionDelegate implements IViewActionDelegate {
 

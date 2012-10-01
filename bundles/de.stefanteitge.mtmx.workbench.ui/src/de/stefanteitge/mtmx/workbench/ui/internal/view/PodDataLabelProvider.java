@@ -16,16 +16,17 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.internal.view;
 
+import jtrfp.common.act.IActPodFileEntry;
+import jtrfp.common.audio.IModPodFileEntry;
+import jtrfp.common.audio.IWavPodFileEntry;
+import jtrfp.common.image.IBmpPodFileEntry;
+import jtrfp.common.image.ITifPodFileEntry;
+import jtrfp.common.pod.IPodFileEntry;
+import jtrfp.common.raw.IRawPodFileEntry;
+
 import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.swt.graphics.Image;
 
-import de.stefanteitge.mtmx.core.file.act.IActPodFileEntry;
-import de.stefanteitge.mtmx.core.file.audio.IModPodFileEntry;
-import de.stefanteitge.mtmx.core.file.audio.IWavPodFileEntry;
-import de.stefanteitge.mtmx.core.file.image.IBmpPodFileEntry;
-import de.stefanteitge.mtmx.core.file.image.ITifPodFileEntry;
-import de.stefanteitge.mtmx.core.file.pod.IPodFileEntry;
-import de.stefanteitge.mtmx.core.file.raw.IRawPodFileEntry;
 import de.stefanteitge.mtmx.workbench.ui.IconProvider;
 import de.stefanteitge.mtmx.workbench.ui.internal.view.PodDataContentProvider.VNode;
 

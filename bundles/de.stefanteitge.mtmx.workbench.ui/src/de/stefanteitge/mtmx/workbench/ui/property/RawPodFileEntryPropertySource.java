@@ -16,12 +16,12 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.property;
 
+import jtrfp.common.FileLoadException;
+import jtrfp.common.raw.IRawPodFileEntry;
+
 import org.eclipse.ui.views.properties.IPropertyDescriptor;
 import org.eclipse.ui.views.properties.IPropertySource;
 import org.eclipse.ui.views.properties.PropertyDescriptor;
-
-import de.stefanteitge.mtmx.core.file.FileLoadException;
-import de.stefanteitge.mtmx.core.file.raw.IRawPodFileEntry;
 
 public class RawPodFileEntryPropertySource implements IPropertySource {
 
