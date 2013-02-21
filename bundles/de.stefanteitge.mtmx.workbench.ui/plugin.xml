@@ -138,7 +138,7 @@
                toolbarPath="additions">
             <enablement>
                <objectClass
-                     name="IPodFileEntry">
+                     name="jtrfp.common.pod.IPodFileEntry">
                </objectClass>
             </enablement>
          </action>
