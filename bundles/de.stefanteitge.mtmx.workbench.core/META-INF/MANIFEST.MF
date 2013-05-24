@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: mtmX Workbench Core
 Bundle-SymbolicName: de.stefanteitge.mtmx.workbench.core;singleton:=true
-Bundle-Version: 0.0.1
+Bundle-Version: 0.0.2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: stefanteitge.de
 Require-Bundle: org.eclipse.core.runtime,
