@@ -75,8 +75,8 @@ public class ModFilePlayer implements PlayThreadEventListener {
 					false, // wide stereo
 					true, // noise reduction
 					false, // mega bass
-					true);
-				playerThread = new PlayThread(mixer, null, this);
+					Helpers.PLAYER_LOOP_DEACTIVATED);
+				playerThread = new PlayThread(mixer, this);
 				playerThread.start();
 			}
 		}

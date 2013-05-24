@@ -2,7 +2,7 @@
 <feature
       id="de.stefanteitge.mtmx.workbench.feature"
       label="mtmX Workbench"
-      version="0.0.2"
+      version="0.0.3"
       provider-name="stefanteitge.de">
 
    <copyright>
@@ -48,21 +48,21 @@ along with mtmX.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
          id="de.stefanteitge.mtmx.workbench.ui"
          download-size="0"
          install-size="0"
-         version="0.0.2"
+         version="0.0.3"
          unpack="false"/>
 
    <plugin
          id="de.stefanteitge.javamod"
          download-size="0"
          install-size="0"
-         version="0.0.1"
+         version="12.9.2"
          unpack="false"/>
 
    <plugin
          id="de.stefanteitge.mtmx.workbench.core"
          download-size="0"
          install-size="0"
-         version="0.0.2"
+         version="0.0.3"
          unpack="false"/>
 
 </feature>
