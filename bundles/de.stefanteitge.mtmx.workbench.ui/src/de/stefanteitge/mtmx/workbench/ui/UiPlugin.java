@@ -19,6 +19,7 @@ package de.stefanteitge.mtmx.workbench.ui;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
+
 public class UiPlugin extends AbstractUIPlugin {
 
 	public static final String PLUGIN_ID = "de.stefanteitge.mtmx.workbench.ui";

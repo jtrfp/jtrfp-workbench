@@ -16,7 +16,6 @@
  */
 package de.stefanteitge.mtmx.workbench.ui.internal.view;
 
-
 import jtrfp.common.act.IActPodFileEntry;
 import jtrfp.common.audio.IModPodFileEntry;
 import jtrfp.common.audio.IWavPodFileEntry;
@@ -35,6 +34,8 @@ import jtrfp.common.trk.ITrkPodFileEntry;
 
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.Viewer;
+
+
 
 public class PodDataContentProvider implements ITreeContentProvider {
 
