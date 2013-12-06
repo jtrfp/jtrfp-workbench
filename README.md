@@ -5,6 +5,8 @@ The *mtmX Workbench* is a plug-in for the [Eclipse IDE](http://www.eclipse.org/)
 It is used to edit and view files from the popular Terminal Reality games like Monster Truck Madness or their newest 
 addition Ghostbusters.
 
+Read documentation [here](doc/Index.md).
+
 ## Installing Eclipse
 
 I recommend using the Eclipse Classic SDK version for Windows.
