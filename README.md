@@ -1,5 +1,4 @@
-Getting started with the mtmx-workbench
-========================================
+# mtmX Workbench
 
 The *mtmX Workbench* is a plug-in for the [Eclipse IDE](http://www.eclipse.org/).
 It is used to edit and view files from the popular Terminal Reality games like Monster Truck Madness or their newest 
